@@ -1,0 +1,160 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+dl,
+li,
+dt,
+dd,
+p,
+div,
+span,
+img,
+a,
+table,
+tr,
+th,
+td,
+small,
+button,
+time,
+figure {
+	border: 0;
+	font: inherit;
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+
+html {
+	line-height: 1;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+li,
+dd {
+	list-style-type: none;
+}
+
+header,
+footer,
+nav,
+section,
+article,
+main,
+aside,
+figure,
+figcaption {
+	display: block;
+}
+
+img {
+	border: none;
+	vertical-align: bottom;
+}
+
+a {
+	cursor: pointer;
+	text-decoration: none;
+}
+
+body {
+	color: #2F2E2E;
+	font-family: "Noto Sans JP", "Meiryo", "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.6;
+}
+
+img {
+	height: auto;
+	max-width: 100%;
+}
+
+a {
+	color: inherit;
+}
+
+.l-inner {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1040px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.u-separate {
+	margin-bottom: 24px;
+	margin-top: 24px;
+}
+
+.u-active-pc {
+	display: none;
+}
+
+.u-active-tab {
+	display: none;
+}
+
+.u-active-sp {
+	display: none;
+}
+
+@media screen and (min-width: 1100px) {
+
+.u-hidden-pc {
+	display: none;
+}
+
+.u-active-pc {
+	display: block;
+}
+
+}
+
+@media screen and (max-width: 1099px) {
+
+.u-hidden-tab {
+	display: none;
+}
+
+.u-active-tab {
+	display: block;
+}
+
+}
+
+@media screen and (max-width: 767px) {
+
+.l-inner {
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.u-hidden-sp {
+	display: none;
+}
+
+.u-active-sp {
+	display: block;
+}
+
+}
+
